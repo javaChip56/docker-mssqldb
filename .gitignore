@@ -1,0 +1,26 @@
+# Ignore these folders.
+mssql/
+mssql_data/
+mssql_log/
+mssql_data/
+mssql_cnf/
+docker/images/
+*bin/
+*obj/
+*obj/Debug/*
+*obj/Release/*
+.*/
+
+# Ignore these files
+*.log
+**/api/**/healthchecksdb
+**/hcgui/**/healthchecksdb
+
+# Ignore Doc & Excel files
+*.xls
+*.xlsx
+*.doc
+*.docx
+
+!.vscode/
+!/.gitignore
